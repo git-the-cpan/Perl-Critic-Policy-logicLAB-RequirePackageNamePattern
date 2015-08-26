@@ -1,7 +1,5 @@
 package Perl::Critic::Policy::logicLAB::RequirePackageNamePattern;
 
-# $Id: ProhibitShellDispatch.pm 8114 2013-07-25 12:57:04Z jonasbn $
-
 use strict;
 use warnings;
 use 5.006;
@@ -11,7 +9,7 @@ use Perl::Critic::Utils qw{ $SEVERITY_MEDIUM :booleans};
 use Carp qw(carp);
 use Data::Dumper;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use constant supported_parameters => qw(names debug exempt_programs);
 use constant default_severity     => $SEVERITY_MEDIUM;
@@ -138,6 +136,14 @@ sub _parse_names {
 __END__
 
 =pod
+
+=begin markdown
+
+[![CPAN version](https://badge.fury.io/pl/Perl-Critic-Policy-logicLAB-RequirePackageNamePattern.svg)](http://badge.fury.io/pl/Perl-Critic-Policy-logicLAB-RequirePackageNamePattern)
+[![Build Status](https://travis-ci.org/jonasbn/pcplrpnp.svg?branch=master)](https://travis-ci.org/jonasbn/pcplrpnp)
+[![Coverage Status](https://coveralls.io/repos/jonasbn/pcplrpnp/badge.png)](https://coveralls.io/r/jonasbn/pcplrpnp)
+
+=end markdown
 
 =head1 NAME
 
@@ -335,7 +341,7 @@ Perl::Critic
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (c) 2013-2014 Jonas B. Nielsen, jonasbn. All rights reserved.
+Copyright (c) 2013-2015 Jonas B. Nielsen, jonasbn. All rights reserved.
 
 Perl::Critic::Policy::logicLAB::RequirePackageNamePattern;  is released under
 the Artistic License 2.0
