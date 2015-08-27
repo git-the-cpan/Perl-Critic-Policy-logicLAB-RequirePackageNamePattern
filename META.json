@@ -61,7 +61,7 @@
    "provides" : {
       "Perl::Critic::Policy::logicLAB::RequirePackageNamePattern" : {
          "file" : "lib/Perl/Critic/Policy/logicLAB/RequirePackageNamePattern.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -75,6 +75,6 @@
          "web" : "https://github.com/jonasbn/pcplrpnp"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
 
